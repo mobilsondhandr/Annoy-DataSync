@@ -22,6 +22,7 @@
   - [Training](#Training)
 - [Citation](#Citation)
 - [Acknowledgement](#Acknowledgement)
+- [License](#License)
 
 ## Introduction
 Annoy-DataSync is a novel approach that transforms code-based reasoning patterns into natural language formats to enhance Large Language Models' reasoning capabilities. Unlike traditional methods focusing on specific skills, our approach systematically extracts universal reasoning primitives while maintaining procedural rigor, enabling better performance across various reasoning tasks.
@@ -214,3 +215,11 @@ You can use any popular training framework to train your model like [llama-facto
 
 ## Acknowledgement
 We thank Koala NN, TCLV and OMEN for their valuable feedback and suggestions! 🤗🤗🤗
+
+## License
+
+The released datasets ([`Annoy-PyEdu-Rs`](https://huggingface.co/datasets/asfafq3f/Annoy-PyEdu-Rs) and [`Annoy-PyEdu-Rs-Raw`](https://huggingface.co/datasets/asfafq3f/Annoy-PyEdu-Rs-Raw)) are released under the **Open Data Commons Attribution License v1.0 (ODC-By)**.
+
+This license is inherited from the upstream source dataset [`HuggingFaceTB/smollm-corpus`](https://huggingface.co/datasets/HuggingFaceTB/smollm-corpus) (specifically its Python-Edu subset), from which the raw Python code samples in `Annoy-PyEdu-Rs-Raw` are adopted. As derivatives of ODC-By data, both the raw and the processed (`Annoy-PyEdu-Rs`) releases are distributed under the same license, which permits free use, redistribution, and modification **provided appropriate attribution** is given to the upstream source as well as to this work.
+
+The source code in this repository is released under the **MIT License**.
